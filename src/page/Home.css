@@ -1,0 +1,60 @@
+.home {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+}
+
+.home-button {
+  position: relative;
+  left: 80%;
+  margin-bottom: 35px;
+  margin-top: 10px;
+  border-radius: 30px;
+  border: 1px solid #CDECFA;
+  height: 35px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #FFE1E6 !important;
+}
+
+.wise-saying-wrapper {
+  left: calc(50% - 700px / 2);
+  position: relative;
+  height: 180px;
+  max-width: 700px;
+  border: 1px solid #CDECFA;
+  border-radius: 30px;
+}
+
+.home>* {
+  background-color: #FFBEC3;
+}
+
+.wise-saying-box {
+  font: bold 11pt -webkit-control;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  width: 500px;
+  height: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+#amend-button:hover {
+  opacity: 1;
+}
+
+#amend-button {
+  position: absolute;
+  top: 220px;
+  border-radius: 7px;
+  border: 1px solid #CDECFA;
+  height: 28px;
+  font: bold serif;
+  cursor: pointer;
+  opacity: 0.7;
+}

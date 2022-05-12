@@ -1,0 +1,59 @@
+.wrapper {
+  width: 800px;
+  min-height: 700px;
+  border: 1px solid #CDECFA;
+  border-radius: 30px;
+  left: calc(50% - 800px/2);
+  position: relative;
+}
+
+.amend-box {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.amend-box>button {
+  margin-left: 10px;
+  border-radius: 10px;
+  border: 1px solid #CDECFA;
+  height: 35px;
+  width: 50px;
+  font: serif;
+  cursor: pointer;
+}
+
+.list-box {
+  background-color: inherit;
+  width: 500px;
+  display: inline-block;
+  left: calc(50% - 500px/2);
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.list-box>li>button {
+  opacity: 0.6;
+  margin-left: 10px;
+  border-radius: 7px;
+  border: 1px solid #CDECFA;
+  height: 25px;
+  font-family: serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.list-box>li>button:hover {
+  opacity: 1;
+}
+
+.list-box>li {
+  margin-bottom: 10px;
+  font: 10.5pt -webkit-control;
+}
+
+#input {
+  height: 30px;
+  width: 400px;
+  border: 2px solid #FF7493;
+}
